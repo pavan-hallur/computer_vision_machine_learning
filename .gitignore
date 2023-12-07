@@ -1,0 +1,34 @@
+# Do not push vscode config
+.vscode
+# Do not push pdf files
+*.pdf
+# Do not push pycache files
+*.pyc
+
+# Dont push pycache
+*__pycache__
+
+# Do not add pycharm configs.
+*env
+.idea
+
+.ipynb_checkpoints
+.DS_Store
+
+# Dont add model zoo
+sheet4/models
+sheet4/logs
+sheet4/__pycache__
+
+sheet5/__pycache__
+sheet5/LiteFlowNet2-TF2
+
+# Sheet6
+sheet6/FCRN-DepthPrediction
+
+# Sheet 7
+sheet7/models
+sheet7/.DS_Store
+sheet7/__pycache__
+
+download_cache/

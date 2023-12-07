@@ -1,0 +1,22 @@
+1. Error: 
+    Traceback (most recent call last):
+    File "main.py", line 8, in <module>
+        print(team[0] + ".." + team[teamSize])
+    IndexError: list index out of range
+
+(a) in which file the error occurs.
+    -> in file "main.py"
+(b) in which line of this file the error occurs.
+    -> in line 8
+(c) the actual line of code that causes the error.
+    -> print(team[0] + ".." + team[teamSize])
+(d) the error type.
+    -> IndexError
+(e) the description of the error.
+    -> list index out of range
+
+2. Error description:
+    The Error is an index out of range error.
+    An array starts at 0 while the len() methods counts the number of objects (starting at 1 and not at 0).
+    The value of len() is therefore out of range of the array by +1.
+    We therefore need to map the value given from len() to the counting mechanism of an array.
